@@ -45,7 +45,8 @@ const WithdrawSummary = () => {
             // externalId: externalId,
             externalId: null,
             // account: `${account_name} ${account_number} ${bankName}` [DAVID]
-            account: null
+            account: null,
+            wallet_address: wallet_address
         }
     };
 
