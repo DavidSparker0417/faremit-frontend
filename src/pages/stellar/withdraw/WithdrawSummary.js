@@ -59,7 +59,7 @@ const WithdrawSummary = () => {
         setIsLoading(true);
         try {
             let data = await axios.get(
-                `http://cryptoprince0207.online/sep24/transactions/${type}/interactive/complete`,
+                `https://cryptoprince0207.online/sep24/transactions/${type}/interactive/complete`,
                 config
             );
             if (data.status === 200) {
