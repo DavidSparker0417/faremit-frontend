@@ -41,7 +41,8 @@ const WithdrawSummary = () => {
             amount_fee: fixedAmount,
             memo_type: "text",
             hashed: Hex,
-            externalId: externalId,
+            // externalId: externalId,
+            externalId: null,
             // account: `${account_name} ${account_number} ${bankName}` [DAVID]
             account: null
         }
