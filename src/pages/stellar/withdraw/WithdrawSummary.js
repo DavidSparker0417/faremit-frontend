@@ -40,7 +40,7 @@ const WithdrawSummary = () => {
             amount: newAmount,
             amount_fee: fixedAmount,
             memo_type: "text",
-            hashed: 'testing sep24 withdraw'
+            hashed: 'testing sep24 withdraw',
             // hashed: Hex,
             // externalId: externalId,
             externalId: null,
