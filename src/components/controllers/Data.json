@@ -1,0 +1,76 @@
+{
+    "sendCountries": [
+        {
+            "name": "United States",
+            "code": "US"
+        },
+        {
+            "name": "Canada",
+            "code": "CA"
+        },
+        {
+            "name": "United Kingdom",
+            "code": "UK"
+        },
+        {
+            "name": "Australia",
+            "code": "AU"
+        }
+    ],
+    "receiveCountries": [
+        {
+            "name": "Philippines",
+            "code": "PH"
+        },
+        {
+            "name": "India",
+            "code": "IN"
+        },
+        {
+            "name": "Mexico",
+            "code": "MX"
+        },
+        {
+            "name": "Nigeria",
+            "code": "NG"
+        }
+    ],
+    "charges": [
+        {
+            "name": "Service Charge",
+            "amount": 3.99,
+            "currency": "USD"
+        },
+        {
+            "name": "Exchange Rate Margin",
+            "amount": 1.5,
+            "currency": "USD"
+        }
+    ],
+    "rates": [
+        {
+            "sendCountry": "US",
+            "receiveCountry": "PH",
+            "rate": 49.25,
+            "currency": "PHP"
+        },
+        {
+            "sendCountry": "CA",
+            "receiveCountry": "IN",
+            "rate": 56.37,
+            "currency": "INR"
+        },
+        {
+            "sendCountry": "UK",
+            "receiveCountry": "MX",
+            "rate": 22.67,
+            "currency": "MXN"
+        },
+        {
+            "sendCountry": "AU",
+            "receiveCountry": "NG",
+            "rate": 294.45,
+            "currency": "NGN"
+        }
+    ]
+}
