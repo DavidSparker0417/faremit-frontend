@@ -39,8 +39,9 @@ const WithdrawSummary = () => {
             asset_code: asset_code,
             amount: newAmount,
             amount_fee: fixedAmount,
-            memo_type: "hash",
-            hashed: Hex,
+            memo_type: "text",
+            hashed: 'testing sep24 withdraw'
+            // hashed: Hex,
             // externalId: externalId,
             externalId: null,
             // account: `${account_name} ${account_number} ${bankName}` [DAVID]
