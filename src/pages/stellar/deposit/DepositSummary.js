@@ -73,7 +73,7 @@ const DepositSummary = () => {
             );
             if (data.status === 200) {
                 window.location.replace(
-                    `http://cryptoprince0207.online/sep24/transaction/more_info?id=${transaction_id}`
+                    `https://cryptoprince0207.online/sep24/transaction/more_info?id=${transaction_id}`
                 );
             }
         } catch (error) {
