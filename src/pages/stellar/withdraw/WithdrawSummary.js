@@ -39,7 +39,7 @@ const WithdrawSummary = () => {
             asset_code: asset_code,
             amount: newAmount,
             amount_fee: fixedAmount,
-            memo_type: "text",
+            memo_type: "hash",
             hashed: Hex,
             // externalId: externalId,
             externalId: null,
