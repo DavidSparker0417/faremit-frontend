@@ -47,7 +47,7 @@ const WithdrawSummary = () => {
     };
 
     // Function to close the popup window
-    function closePopup () {
+    function closePopup() {
         // Send a message to the opener window to indicate completion
         window.opener.postMessage("success", "*");
 
@@ -172,7 +172,7 @@ const WithdrawSummary = () => {
 
 export default WithdrawSummary;
 
-function Logo ({ width, height }) {
+function Logo({ width, height }) {
     return (
         <svg
             width={width}
