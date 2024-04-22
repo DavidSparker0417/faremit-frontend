@@ -140,9 +140,9 @@ const StellarWithdraw = () => {
                         fee: charge,
                         amount: withdraw.amount,
                         wallet_address: wallet,
-                        // bank_name: selected.bank_name,
-                        // account_number: accountNumber,
-                        // account_name: fullName [DAVID]
+                        bank_name: selected.bank_name,
+                        account_number: accountNumber,
+                        account_name: fullName
                         // Hex: data.HexValue,
                     }
                 }
